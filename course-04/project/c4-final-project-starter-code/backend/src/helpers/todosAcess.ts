@@ -1,3 +1,5 @@
+/* eslint-disable */
+// @ts-ignore
 import * as AWS from 'aws-sdk'
 import * as AWSXRay from 'aws-xray-sdk'
 import { DocumentClient } from 'aws-sdk/clients/dynamodb'
