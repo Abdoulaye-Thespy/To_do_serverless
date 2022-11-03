@@ -14,7 +14,7 @@ export const handler = middy(
     await deleteTodo(userId, todoId)
 
     return {
-        statusCode: 204,
+        statusCode: 201,
         body: JSON.stringify({
           message: "Item deleted successfully"
       })
