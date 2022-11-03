@@ -1,3 +1,5 @@
+/* eslint-disable */
+// @ts-ignore
 
 // import { TodosAccess } from './todosAcess'
 // import { AttachmentUtils } from './attachmentUtils';

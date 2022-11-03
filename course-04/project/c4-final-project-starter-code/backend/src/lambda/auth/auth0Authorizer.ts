@@ -78,10 +78,5 @@ function verifyToken(authHeader: string) {
 
   const split = authHeader.split(' ')
   const token = split[1]
-  if(token !="123")
-  throw new Error('Invalid token')
-
-
-
   return verify(token, cert, { algorithms: ['RS256'] }) as JwtPayload
 }
